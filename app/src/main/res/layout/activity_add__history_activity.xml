@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#b3ffcc"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_History_activity">
+
+    <ImageView
+        android:id="@+id/ImageVid"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gallary"
+        />
+
+
+        <Button
+            android:id="@+id/takephotoID"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/camera"
+            />
+
+    <EditText
+        android:id="@+id/NAMEID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Write Doctor name"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/DETAILSID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Write Pescription Details"
+        android:layout_gravity="center"
+        android:textSize="23dp"/>
+    <EditText
+        android:id="@+id/DATEID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:hint="Write Your Date"
+        android:textSize="23dp"/>
+
+    <Button
+        android:id="@+id/SAVEID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="save"
+        android:layout_marginLeft="40dp"
+        />
+
+</LinearLayout>

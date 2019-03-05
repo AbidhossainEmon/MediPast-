@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#b3ffcc"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryDetailsActivity">
+
+    <ImageView
+        android:id="@+id/IMAGETV"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/NAMETV"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Dr emon"
+        android:textSize="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/DETAILSTV"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Details"
+        android:textSize="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/DATETV"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="12/11/19"
+        android:textSize="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>
